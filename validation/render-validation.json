@@ -1,0 +1,72 @@
+{
+  "sampled_frames": 16,
+  "distinct_moving_frames": 16,
+  "scope": "title, instruction footer and board border; moving row and food excluded",
+  "limitation": "sampled frames, not continuous video",
+  "frames": [
+    {
+      "frame": 1,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 2,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 3,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 4,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 5,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 6,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 7,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 8,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 9,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 10,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 11,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 12,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 13,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 14,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 15,
+      "static_details_unchanged": true
+    },
+    {
+      "frame": 16,
+      "static_details_unchanged": true
+    }
+  ]
+}

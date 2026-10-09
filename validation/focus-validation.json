@@ -1,0 +1,54 @@
+{
+  "automatic_pause": true,
+  "remains_paused_on_return": true,
+  "states": [
+    {
+      "length": 3,
+      "head": 151,
+      "food": 154,
+      "score": 0,
+      "steps": 2,
+      "direction": 2,
+      "pending_direction": 2,
+      "speed": 1,
+      "seed": 17,
+      "paused": true,
+      "done": false,
+      "won": false,
+      "walls": false,
+      "ready": true,
+      "painted": true,
+      "turn_pending": false,
+      "next_tick": 20057,
+      "body": [
+        149,
+        150,
+        151
+      ]
+    },
+    {
+      "length": 3,
+      "head": 151,
+      "food": 154,
+      "score": 0,
+      "steps": 2,
+      "direction": 2,
+      "pending_direction": 2,
+      "speed": 1,
+      "seed": 17,
+      "paused": true,
+      "done": false,
+      "won": false,
+      "walls": false,
+      "ready": true,
+      "painted": true,
+      "turn_pending": false,
+      "next_tick": 20057,
+      "body": [
+        149,
+        150,
+        151
+      ]
+    }
+  ]
+}

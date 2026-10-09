@@ -1,0 +1,283 @@
+{
+  "native_os": "Lisa Office System 3.1",
+  "input": "emulated COPS keyboard",
+  "state_access": "read only physical RAM",
+  "passed": 10,
+  "checks": [
+    {
+      "test": "fresh game starts paused",
+      "state": {
+        "length": 3,
+        "head": 149,
+        "food": 154,
+        "score": 0,
+        "steps": 0,
+        "direction": 2,
+        "pending_direction": 2,
+        "speed": 1,
+        "seed": 17,
+        "paused": true,
+        "done": false,
+        "won": false,
+        "walls": true,
+        "ready": true,
+        "painted": true,
+        "turn_pending": false,
+        "next_tick": 12839,
+        "body": [
+          147,
+          148,
+          149
+        ]
+      }
+    },
+    {
+      "test": "paused state does not advance",
+      "state": {
+        "length": 3,
+        "head": 149,
+        "food": 154,
+        "score": 0,
+        "steps": 0,
+        "direction": 2,
+        "pending_direction": 2,
+        "speed": 1,
+        "seed": 17,
+        "paused": true,
+        "done": false,
+        "won": false,
+        "walls": true,
+        "ready": true,
+        "painted": true,
+        "turn_pending": false,
+        "next_tick": 12839,
+        "body": [
+          147,
+          148,
+          149
+        ]
+      }
+    },
+    {
+      "test": "reversal and second turn before tick are rejected",
+      "state": {
+        "length": 3,
+        "head": 149,
+        "food": 154,
+        "score": 0,
+        "steps": 0,
+        "direction": 2,
+        "pending_direction": 1,
+        "speed": 1,
+        "seed": 17,
+        "paused": true,
+        "done": false,
+        "won": false,
+        "walls": true,
+        "ready": true,
+        "painted": true,
+        "turn_pending": true,
+        "next_tick": 12839,
+        "body": [
+          147,
+          148,
+          149
+        ]
+      }
+    },
+    {
+      "test": "automatic motion, eating, growth, score and wall collision",
+      "state": {
+        "length": 4,
+        "head": 160,
+        "food": 91,
+        "score": 10,
+        "steps": 11,
+        "direction": 2,
+        "pending_direction": 2,
+        "speed": 1,
+        "seed": 90,
+        "paused": true,
+        "done": true,
+        "won": false,
+        "walls": true,
+        "ready": true,
+        "painted": true,
+        "turn_pending": false,
+        "next_tick": 14900,
+        "body": [
+          157,
+          158,
+          159,
+          160
+        ]
+      }
+    },
+    {
+      "test": "F selects wrapping mode and restarts paused",
+      "state": {
+        "length": 3,
+        "head": 149,
+        "food": 154,
+        "score": 0,
+        "steps": 0,
+        "direction": 2,
+        "pending_direction": 2,
+        "speed": 1,
+        "seed": 17,
+        "paused": true,
+        "done": false,
+        "won": false,
+        "walls": false,
+        "ready": true,
+        "painted": true,
+        "turn_pending": false,
+        "next_tick": 15028,
+        "body": [
+          147,
+          148,
+          149
+        ]
+      }
+    },
+    {
+      "test": "fast mode continues through the right edge without keyboard input",
+      "state": {
+        "length": 4,
+        "head": 156,
+        "food": 91,
+        "score": 10,
+        "steps": 27,
+        "direction": 2,
+        "pending_direction": 2,
+        "speed": 3,
+        "seed": 90,
+        "paused": false,
+        "done": false,
+        "won": false,
+        "walls": false,
+        "ready": true,
+        "painted": true,
+        "turn_pending": false,
+        "next_tick": 15413,
+        "body": [
+          153,
+          154,
+          155,
+          156
+        ]
+      }
+    },
+    {
+      "test": "space pauses moving game without changing state",
+      "state": {
+        "length": 4,
+        "head": 141,
+        "food": 91,
+        "score": 10,
+        "steps": 32,
+        "direction": 2,
+        "pending_direction": 2,
+        "speed": 3,
+        "seed": 90,
+        "paused": true,
+        "done": false,
+        "won": false,
+        "walls": false,
+        "ready": true,
+        "painted": true,
+        "turn_pending": false,
+        "next_tick": 15467,
+        "body": [
+          158,
+          159,
+          160,
+          141
+        ]
+      }
+    },
+    {
+      "test": "medium speed selection",
+      "state": {
+        "length": 4,
+        "head": 141,
+        "food": 91,
+        "score": 10,
+        "steps": 32,
+        "direction": 2,
+        "pending_direction": 2,
+        "speed": 2,
+        "seed": 90,
+        "paused": true,
+        "done": false,
+        "won": false,
+        "walls": false,
+        "ready": true,
+        "painted": true,
+        "turn_pending": false,
+        "next_tick": 15651,
+        "body": [
+          158,
+          159,
+          160,
+          141
+        ]
+      }
+    },
+    {
+      "test": "slow speed selection",
+      "state": {
+        "length": 4,
+        "head": 141,
+        "food": 91,
+        "score": 10,
+        "steps": 32,
+        "direction": 2,
+        "pending_direction": 2,
+        "speed": 1,
+        "seed": 90,
+        "paused": true,
+        "done": false,
+        "won": false,
+        "walls": false,
+        "ready": true,
+        "painted": true,
+        "turn_pending": false,
+        "next_tick": 15761,
+        "body": [
+          158,
+          159,
+          160,
+          141
+        ]
+      }
+    },
+    {
+      "test": "restart restores fresh game and selected settings",
+      "state": {
+        "length": 3,
+        "head": 149,
+        "food": 154,
+        "score": 0,
+        "steps": 0,
+        "direction": 2,
+        "pending_direction": 2,
+        "speed": 1,
+        "seed": 17,
+        "paused": true,
+        "done": false,
+        "won": false,
+        "walls": true,
+        "ready": true,
+        "painted": false,
+        "turn_pending": false,
+        "next_tick": 15950,
+        "body": [
+          147,
+          148,
+          149
+        ]
+      }
+    }
+  ]
+}

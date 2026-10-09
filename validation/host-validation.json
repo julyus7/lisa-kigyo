@@ -1,0 +1,15 @@
+{
+  "passed": 10,
+  "checks": [
+    "opposite direction and two turns in one tick rejected",
+    "food increases length and score; deterministic new food on empty cell",
+    "right wall stops game without corrupting body",
+    "all four wall boundaries",
+    "all four wrap boundaries",
+    "1000 automatic straight movements with wrapping and valid body",
+    "moving into vacated tail is legal",
+    "collision with body ends game",
+    "filling the board wins without food placement loop",
+    "native source contains timed loop and Hungarian captions"
+  ]
+}

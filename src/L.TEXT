@@ -1,0 +1,13 @@
+$EXEC
+L{inker}M.OBJ
+G.OBJ
+J.OBJ
+D.OBJ
+I.OBJ
+IOSPASLIK.OBJ
+SYS1LIK.OBJ
+PRLIK.OBJ
+{end inputs}
+{no listing}
+K.OBJ
+$ENDEXEC
