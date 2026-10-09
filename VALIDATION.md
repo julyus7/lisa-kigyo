@@ -1,5 +1,15 @@
 # Kígyó – tesztelési jegyzőkönyv
 
+## Hardware target and test scope
+
+The program is a native Motorola 68000 application for Apple Lisa 2 hardware
+(Lisa 2/5 and Lisa 2/10) running Lisa Office System 3. The released tagged
+DC42 image can be written to a native Lisa floppy for use on those machines.
+The checks below were performed in LisaEm. No physical Lisa 2 hardware test
+is recorded in this release; emulator results are not a physical-hardware
+test result.
+
+
 A játékot ezen a gépen futó helyi Linux virtuális gépben, valódi Lisa
 Pascal 3.26 és MC68000 Code Generator 3.16 segítségével fordítottam.
 A Linker 3.0 nyolc bemeneti állományból, nulla hibával készítette el a

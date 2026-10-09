@@ -6,7 +6,7 @@ Python prepares files; the Pascal compiler runs on the emulated Lisa.
 
 ## Requirements
 
-- Apple Lisa or LisaEm, your own ROM, Workshop 3 and LOS 3 environment.
+- Real Apple Lisa 2 (2/5 or 2/10), or LisaEm, your own ROM, Workshop 3 and LOS 3 environment.
 - LOS interface objects referenced by the source, plus `IOSPASLIB.OBJ`,
   `SYS1LIB.OBJ` and `PRLIB.OBJ`.
 - Python 3.10+ for the included tools, using the standard library only.
